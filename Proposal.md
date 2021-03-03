@@ -42,7 +42,7 @@ Based off the provided Scenario & Stakes
 | ----- | ----------------------------------------- | ---------- |
 | **0** | Assignment Day                            | 2021/02/18 |
 | **1** | Add a Proposal                            | 2021/02/24 |
-| **2** | Deliverables 1 & 2                        | 2021/02/02 |
+| **2** | Deliverables 1 & 2                        | 2021/03/02 |
 | **3** |`/tests/` folder: TDD strategy and code.   | 2021/03/05 |
 | **4** | Final Deliverables: as shown below.       | 2021/03/05 |
 
@@ -61,13 +61,13 @@ Based off the provided Scenario & Stakes
 | Criteria/Feature| Possible                 |  Possible |  Earned  |  Done ️ ☑  |
 | ------------------------------------------ | :-------: | :------: |  :------: |
 | Deliverable 0: Proposal (this doc)         |   `20`    |   `20`   |     ☑     |
-| Deliverable 1: vMVP 1st Feature Group      |   `30`    |   `00`   |           |
-| Deliverable 2: v1.0 2nd Feature Group      |   `50`    |   `00`   |           |
-| Deliverable 4: v1.1 3rd Feature Group      |   `50`    |   `00`   |           |
+| Deliverable 1: vMVP/v1.0 1st Feature Group |   `30`    |   `30`   |     ☑     |
+| Deliverable 2: v1.1 2nd Feature Group      |   `50`    |   `00`   |           |
+| Deliverable 4: v1.2 3rd Feature Group      |   `50`    |   `00`   |           |
 | Deliverable 5: Create a [Presentation](https://docs.google.com/presentation/d/1SH87VgMKZIYDI2XHCQT_Hp10XyX_5iZiza5XQaASw94/edit?usp=sharing)      |   `10`    |   `10`   |     ☑     |
 | ✨ Finishing Touches                       |   BONUS   |   EXTRA   |  Done ️☑  |
 | Add your project to your **[Make School Portfolio](https://www.makeschool.com/portfolio/Christopher-Barnes) 🎉**. |   `10`   |   `0`   |         |
-| Find a clever way to **🔌 Integrate & utilize** third-party APIs and library within your project. (10pt for each) |   `10`   |   `60`  |         |
+| Find a clever way to **🔌 Integrate & utilize** third-party APIs and library within your project. (10pt for each) |   `70`   |   `30`  |         |
 |           |   `10`    |   `00`   |        |
 | **TOTAL** ☑                               | **`200`** |  **`0`**  |  00.00%  |
 
@@ -87,70 +87,97 @@ If you get stuck on any step, be sure to print the output to `stdout`!
 
 #### v1.0 Requirements
 
-* [ ] Initialize Go modules in your project.
-* [ ] Add Template For Chess Flyer
-* [ ] Create Html Page With Flyer Temlple
-* [ ] Update Template For Chess Flyer
-* [ ] Add Command to get relavent links to chess websties
-* [ ] **Add, commit, and push to GitHub**.
+* [X] Initialize Go modules in your project.
+* [X] Add main file name the same as our directory `makeutility.go`
+* [X] $ touch .env > LICHESS_TOKEN=YOUR_API_TOKEN
+* [X] Add CLI Flag To Get The Version
+* [X] Add Template For Chess Club Flyers
+* [X] Add Struct Model For Chess Club Flyers
+* [X] Add CLI Flag To Generate Html Flyer With Said Template Page
+* [X] **Add, commit, and push to GitHub**.
 
 #### v1.0 Stretch Challenges
 
-* [ ] Use Bootstrap, or another CSS framework, to enhance the style and readability of your template.\
-        _Get creative! Writing your very own website generator is a great opportunity to broadcast your style, personality, and development preferences to the world!_
-* [ ] Add any third party library to your project to enhance it's functionality.
-* [ ] **_FILL IN THE BLANK_**: \
-        I will use the `SRG` library. \
+* [X] Add any third party library to your project to enhance it's functionality.
+* [X] I will use the `cobra` library. \
+        The documentation is located [`here`](https://pkg.go.dev/github.com/spf13/cobra). \
+        Goal: `Create a powerful modern CLI applications`. \
+        Install: `go get -u github.com/spf13/cobra`
+* [X] I will use the `godotenv` library. \
+        The documentation is located [`here`](https://pkg.go.dev/github.com/joho/godotenv). \
+        My goal is to use it to `Hide API Keys & Other Secret Things`. \
+        Install: `go get github.com/joho/godotenv`
+* [X] I will use the `SRG` library. \
         The documentation is located [`here`](https://pkg.go.dev/github.com/foize/go.sgr). \
-        My goal is to add color/formating to print statement.
-* [ ] **_FILL IN THE BLANK_**: \
-        I will use the `godotenv` library. \
-        The documentation is located [`here`](https://pkg.go.dev/github.com/joho/godotenv@v1.3.0). \
-        My goal is to use it to `Hide API Keys & Other Secret Things`.
-* [ ] **_FILL IN THE BLANK_**: \
-        I will use the `req` library. \
-        The documentation is located [`here`](https://pkg.go.dev/github.com/imroc/req@v0.3.0). \
-        My goal is to use it to `Interact with the lichess.org API`.
-* [ ] Host to github Pages
-* [ ] **Add, commit, and push to GitHub**.
+        My goal is to add color/formating to print statement. \
+        Install: `go get github.com/foize/go.sgr`
+* [X] **Add, commit, and push to GitHub**.
 
 ### Second Feature Group: v1.1
 
 #### v1.1 Requirements
 
-* [ ] Tournaments
-* [ ] Unit Testing
-* [ ] Accounts
-* [ ] Users
+* [ ] Add `tournament-flyer.tmpl` to the Template directory (`tmpl`)
+* [ ] Add CRUD Functions To Interact With The lichess.org API To Manage Chess [Tournaments](https://lichess.org/api#tag/Arena-tournaments)
+* [ ] Test Creating HTML Flyers For Tournamnets
+* [ ] Add Command(s) to get relavent links to chess websties
+* [ ] Add Unit Testing To Version, Author, Links, & Flyer Creation
+* [ ] **Add, commit, and push to GitHub**.
 
 #### v1.1 Stretch Challenges
 
-* [ ] Polish Chess Flyer Template
-* [ ] Translating page content using Google Translate.
-* [ ] Parse Markdown (`.md`) files and transform them into HTML. `#` through `######` should translate to `<h1>` through `<h6>` elements.
-* [ ] **_FILL IN THE BLANK_**: I will use the `Shoutrrr` library. The documentation is located [`here`](https://containrrr.dev/shoutrrr/getting-started/). My goal is to use it to `Send automated notification to Slack and Discord with the new Flyer URl`.
+* [ ] Use Bootstrap, or another CSS framework, to enhance the style and readability of your template.\
+        _Get creative! Writing your very own website generator is a great opportunity to broadcast your style, personality, and development preferences to the world!_
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+* [ ] I will use the `req` library. \
+        The documentation is located [`here`](https://pkg.go.dev/github.com/imroc/req). \
+        My goal is to use it to `Interact with the lichess.org API`. \
+        Install: `go get github.com/imroc/req`
+* [ ] **Add, commit, and push to GitHub**.
+* [ ] Host to github Pages
 
 ### Third Feature Group: v1.2
 
 #### v1.2 Requirements
 
-* [ ] Teams
-* [ ] Games
+Add CRUD Functions To Interact With The lichess.org API To Manage Chess
+
+* [ ] [Accounts](https://lichess.org/api#tag/Account)
+* [ ] [Users](https://lichess.org/api#tag/Users)
+* [ ] [Teams](https://lichess.org/api#tag/Teams)
+* [ ] [Games](https://lichess.org/api#tag/Games)
 * [ ] Create A [Presentation](https://docs.google.com/presentation/d/1SH87VgMKZIYDI2XHCQT_Hp10XyX_5iZiza5XQaASw94/edit?usp=sharing)
+* [ ] **Add, commit, and push to GitHub**.
 
 #### v1.2 Stretch Challenges
 
 * [ ] Create A [BlogPost](https://docs.google.com/document/d/1zrcS6hiancHpcVUDIRwO_4PFMBFC2eaGjFkwByDrqJM/edit?usp=sharing)
+* [ ] Polish Templates For The Chess Flyers
+* [ ] **Add, commit, and push to GitHub**.
 
 ### Fourth Feature Group: v1.3
 
 #### v1.3 Requirements
 
-* [ ] Relations
-* [ ] Challenges
-* [ ] Chessbot
+Add CRUD Functions To Interact With The lichess.org API To Manage Chess
+
+* [ ] [Relations](https://lichess.org/api#tag/Relations)
+* [ ] [Challenges](https://lichess.org/api#tag/Challenges)
+* [ ] [Chessbot](https://lichess.org/api#tag/Bot)
+* [ ] **Add, commit, and push to GitHub**.
 
 #### v1.3 Stretch Challenges
+
+* [ ] I will use the `Shoutrrr` library. \
+        The documentation is located [`here`](https://containrrr.dev/shoutrrr/getting-started/). \
+        My goal is to use it to `Send automated notification to Slack and Discord with the new Flyer URl`.
+* [ ] I will use the `Google Translate` library. \
+        The documentation is located [`here`](https://pkg.go.dev/cloud.google.com/go/translate/apiv3). \
+        My goal is to use it to `Translate the flyers and web pages contents`.
+* [ ] Polish Templates For The Chess Flyers
+* [ ] **Add, commit, and push to GitHub**.
 
 ## Rubric
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Make School Chess Club Flyer {{.Year}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body class="text-center">
+
+    <h1>Make School Chess Club Flyer {{.Year}}</h1>
+
+    <div class="images">
+      <img src="../images/{{.LeftImage.SRC}}" alt="{{.LeftImage.ALT}}" />
+      <img src="../images/{{.RightImage.SRC}}" alt="{{.RightImage.ALT}}" />
+    </div>
+
+    <div class="content">
+      <p>
+        {{.Year}}
+        {{.Name}}
+        {{.Content}}
+        {{.LeftImage}}
+        {{.RightImage}}
+        {{.Discord}}
+        {{.Slack}}
+        {{.LiChessTeam}}
+        {{.ChessdotcomTeam}}
+        {{.Twitch}}
+        {{.Instagram}}
+        {{.Constitution}}
+        {{.Roster}}
+      </p>
+    </div>
+
+  </body>
+</html>

@@ -23,7 +23,22 @@ A Go implementation of [Lichess](https://lichess.org)'s [API](https://lichess.or
         ├── feature_request.md
     ├── CODE_OF_CONDUCT.md
     ├── CODEOWNERS
+├── 📂 cmd
+    ├── root.go
+    ├── version.go
+├── 📂 docs
+    ├── club-flyer.html
+├── 📂 images
+    ├── Rubric.png
+├── 📂 models
+    ├── club-flyer.go
+├── 📂 tmpl
+    ├── club-flyer.tmpl
+├── .env
 ├── .gitignore
+├── go.mod
+├── go.sum
+├── makeutility.go
 ├── Proposal.md
 └── Readme.md
 ```
@@ -41,8 +56,10 @@ A Go implementation of [Lichess](https://lichess.org)'s [API](https://lichess.or
 $ git clone git@github.com:YOUR_GITHUB_USERNAME/makeutility.git && cd makeutility
 # Create a .env file to hold our secrets
 $ touch .env > LICHESS_TOKEN=YOUR_API_TOKEN
+# Download & Install the dependancies. Then Compile the program
+$ go build
 # Run the program locally
-go run main.go
+$ go run main.go
 ```
 
 ## Contributors
@@ -62,6 +79,8 @@ Anyone is welcome to contribute!
 - [Go Template CheeatSheet](https://curtisvermeeren.github.io/2017/09/14/Golang-Templates-Cheatsheet)
 - [Intro to go testing](https://tutorialedge.net/golang/intro-testing-in-go/)
 - [Intro to go benchmark testing](https://tutorialedge.net/golang/benchmarking-your-go-programs/)
+- [Runes in golang](https://www.geeksforgeeks.org/rune-in-golang/)
+- [Default Vaules for Struct Fields in golang](https://www.geeksforgeeks.org/how-to-assign-default-value-for-struct-field-in-golang/)
 
 ### Example Code
 
