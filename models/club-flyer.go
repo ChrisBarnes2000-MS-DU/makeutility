@@ -17,17 +17,7 @@ type ChessClubFlyer struct {
 	Roster          link
 }
 
-type link struct {
-	Display string
-	URL     string
-}
-
-type image struct {
-	SRC string
-	ALT string
-}
-
-// Constructor Function: Setting default values: if no values present
+// FillDefaults ... Constructor Function: Setting default values: if no values present
 func (ChessClubFlyer *ChessClubFlyer) FillDefaults() {
 
 	// Year, Name, Content

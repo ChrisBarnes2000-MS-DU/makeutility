@@ -62,12 +62,12 @@ Based off the provided Scenario & Stakes
 | ------------------------------------------ | :-------: | :------: |  :------: |
 | Deliverable 0: Proposal (this doc)         |   `20`    |   `20`   |     ☑     |
 | Deliverable 1: vMVP/v1.0 1st Feature Group |   `30`    |   `30`   |     ☑     |
-| Deliverable 2: v1.1 2nd Feature Group      |   `50`    |   `00`   |           |
+| Deliverable 2: v1.1 2nd Feature Group      |   `50`    |   `50`   |     ☑     |
 | Deliverable 4: v1.2 3rd Feature Group      |   `50`    |   `00`   |           |
 | Deliverable 5: Create a [Presentation](https://docs.google.com/presentation/d/1SH87VgMKZIYDI2XHCQT_Hp10XyX_5iZiza5XQaASw94/edit?usp=sharing)      |   `10`    |   `10`   |     ☑     |
 | ✨ Finishing Touches                       |   BONUS   |   EXTRA   |  Done ️☑  |
-| Add your project to your **[Make School Portfolio](https://www.makeschool.com/portfolio/Christopher-Barnes) 🎉**. |   `10`   |   `0`   |         |
-| Find a clever way to **🔌 Integrate & utilize** third-party APIs and library within your project. (10pt for each) |   `70`   |   `30`  |         |
+| Add your project to your **[Make School Portfolio](https://www.makeschool.com/portfolio/Christopher-Barnes) 🎉**. |   `10`   |   `0`   |           |
+| Find a clever way to **🔌 Integrate & utilize** third-party APIs and library within your project. (10pt for each) |   `70`   |   `50`  |     ☑     |
 |           |   `10`    |   `00`   |        |
 | **TOTAL** ☑                               | **`200`** |  **`0`**  |  00.00%  |
 
@@ -117,26 +117,26 @@ If you get stuck on any step, be sure to print the output to `stdout`!
 
 #### v1.1 Requirements
 
-* [ ] Add `tournament-flyer.tmpl` to the Template directory (`tmpl`)
-* [ ] Add CRUD Functions To Interact With The lichess.org API To Manage Chess [Tournaments](https://lichess.org/api#tag/Arena-tournaments)
-* [ ] Test Creating HTML Flyers For Tournamnets
-* [ ] Add Command(s) to get relavent links to chess websties
-* [ ] Add Unit Testing To Version, Author, Links, & Flyer Creation
-* [ ] **Add, commit, and push to GitHub**.
+* [X] Add a template in `tournament-flyer.tmpl` to the Template directory (`[tmpl](./tmpl/)`)
+* [X] Add a struct in `tournament-flyer.go` to the Models directory (`[models](./models/)`)
+* [X] Add Command(s) to get relavent links to chess websties
+* [X] Add **CR**UD Functions To Interact With The lichess.org API To Manage Chess [Tournaments](https://lichess.org/api#tag/Arena-tournaments)
+* [X] Test Creating HTML Flyers For Tournamnets
+* [X] **Add, commit, and push to GitHub**.
 
 #### v1.1 Stretch Challenges
 
-* [ ] Use Bootstrap, or another CSS framework, to enhance the style and readability of your template.\
+* [X] Use Bootstrap, or another CSS framework, to enhance the style and readability of your template.\
         _Get creative! Writing your very own website generator is a great opportunity to broadcast your style, personality, and development preferences to the world!_
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-* [ ] I will use the `req` library. \
+* [X] I will use the `req` library. \
         The documentation is located [`here`](https://pkg.go.dev/github.com/imroc/req). \
         My goal is to use it to `Interact with the lichess.org API`. \
         Install: `go get github.com/imroc/req`
-* [ ] **Add, commit, and push to GitHub**.
-* [ ] Host to github Pages
+* [X] **Add, commit, and push to GitHub**.
+* [X] Host to github Pages
 
 ### Third Feature Group: v1.2
 
@@ -144,10 +144,10 @@ If you get stuck on any step, be sure to print the output to `stdout`!
 
 Add CRUD Functions To Interact With The lichess.org API To Manage Chess
 
+* [ ] Add Unit Testing To Version, Author, Links, & Flyer Creation
+* [ ] [Relations](https://lichess.org/api#tag/Relations)
 * [ ] [Accounts](https://lichess.org/api#tag/Account)
 * [ ] [Users](https://lichess.org/api#tag/Users)
-* [ ] [Teams](https://lichess.org/api#tag/Teams)
-* [ ] [Games](https://lichess.org/api#tag/Games)
 * [ ] Create A [Presentation](https://docs.google.com/presentation/d/1SH87VgMKZIYDI2XHCQT_Hp10XyX_5iZiza5XQaASw94/edit?usp=sharing)
 * [ ] **Add, commit, and push to GitHub**.
 
@@ -163,7 +163,8 @@ Add CRUD Functions To Interact With The lichess.org API To Manage Chess
 
 Add CRUD Functions To Interact With The lichess.org API To Manage Chess
 
-* [ ] [Relations](https://lichess.org/api#tag/Relations)
+* [ ] [Teams](https://lichess.org/api#tag/Teams)
+* [ ] [Games](https://lichess.org/api#tag/Games)
 * [ ] [Challenges](https://lichess.org/api#tag/Challenges)
 * [ ] [Chessbot](https://lichess.org/api#tag/Bot)
 * [ ] **Add, commit, and push to GitHub**.
