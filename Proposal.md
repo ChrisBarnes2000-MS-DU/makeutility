@@ -6,9 +6,9 @@
 
 Based off the provided Scenario & Stakes
 
-    The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the **team identified areas of improvement** together. Each team member will be responsible for **taking ownership over one problem** this sprint.
+The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the **team identified areas of improvement** together. Each team member will be responsible for **taking ownership over one problem** this sprint.
 
-    The entire software suite will be presented and discussed during the sprint retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization.
+The entire software suite will be presented and discussed during the sprint retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization.
 
 **Reflect upon the questions below**, and **brainstorm ideas** that fit this scenario.
 
@@ -48,7 +48,9 @@ Based off the provided Scenario & Stakes
 
 ---
 
-## Next, Lets Map our Deliverables/Features and Progress For This Project, We are choosing to make a Golang Lichess Package
+# We are choosing to make a Golang Lichess Package
+
+## Lets Map our Deliverables/Features & Progress
 
 **For each task**:
 
@@ -58,18 +60,20 @@ Based off the provided Scenario & Stakes
 
 #### Our Progress [![Go Report Card](https://goreportcard.com/badge/github.com/ChrisBarnes2000/makeutility)](https://goreportcard.com/report/github.com/ChrisBarnes2000/makeutility)
 
-| Criteria/Feature| Possible                 |  Possible |  Earned  |  Done ️ ☑  |
-| ------------------------------------------ | :-------: | :------: |  :------: |
-| Deliverable 0: Proposal (this doc)         |   `20`    |   `20`   |     ☑     |
-| Deliverable 1: vMVP/v1.0 1st Feature Group |   `30`    |   `30`   |     ☑     |
-| Deliverable 2: v1.1 2nd Feature Group      |   `50`    |   `50`   |     ☑     |
-| Deliverable 4: v1.2 3rd Feature Group      |   `50`    |   `00`   |           |
-| Deliverable 5: Create a [Presentation](https://docs.google.com/presentation/d/1SH87VgMKZIYDI2XHCQT_Hp10XyX_5iZiza5XQaASw94/edit?usp=sharing)      |   `10`    |   `10`   |     ☑     |
-| ✨ Finishing Touches                       |   BONUS   |   EXTRA   |  Done ️☑  |
-| Add your project to your **[Make School Portfolio](https://www.makeschool.com/portfolio/Christopher-Barnes) 🎉**. |   `10`   |   `0`   |           |
-| Find a clever way to **🔌 Integrate & utilize** third-party APIs and library within your project. (10pt for each) |   `70`   |   `50`  |     ☑     |
-|           |   `10`    |   `00`   |        |
-| **TOTAL** ☑                               | **`200`** |  **`0`**  |  00.00%  |
+| Criteria/Feature                                                                                                                                  | Possible |  Earned  |  Done ️ ☑  |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------: | :-------: | :-----: | :-------: |
+| Deliverable 0: Proposal (this doc)                                                                                                                |   `20`   |   `20`   |     ☑     |
+| Deliverable 1: vMVP/v1.0 1st Feature Group                                                                                                        |   `30`   |   `30`   |     ☑     |
+| Deliverable 2: v1.1 2nd Feature Group                                                                                                             |   `50`   |   `50`   |     ☑     |
+| Deliverable 4: v1.2 3rd Feature Group                                                                                                             |   `50`   |   `00`   |           |
+| Deliverable 5: Create a [Presentation](https://docs.google.com/presentation/d/1SH87VgMKZIYDI2XHCQT_Hp10XyX_5iZiza5XQaASw94/edit?usp=sharing)      |   `10`   |   `10`   |     ☑     |
+| Deliverable 6: Create a [BlogPost](https://docs.google.com/document/d/1zrcS6hiancHpcVUDIRwO_4PFMBFC2eaGjFkwByDrqJM/edit?usp=sharing)              |   `10`   |   `10`   |     ☑     |
+
+| ✨ Finishing Touches                                                                                                                              |   BONUS   |  EXTRA  |  Done ️ ☑  |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------: | :-------: | :-----: | :-------: |
+| Add your project to your **[Make School Portfolio](https://www.makeschool.com/portfolio/Christopher-Barnes) 🎉**.                                 |   `10`    |   `00`  |           |
+| Find a clever way to **🔌 Integrate & utilize** third-party APIs and library within your project. (10pt for each)                                 |   `70`    |   `50`  |     ☑     |
+| **TOTAL** ☑                                                                                                                                       | **`200`** |  **`0`**  |  00.00%  |
 
 ## Deliverables
 

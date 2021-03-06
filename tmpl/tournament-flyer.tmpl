@@ -19,31 +19,35 @@
     <br />
     <br />
     <div>
-        <a href="http://lichess.org/tournament/{{ .ID }}" target="_blank" rel="noopener noreferrer">
-            http://lichess.org/tournament/{{ .ID }}
-        </a>
+      <a href="http://lichess.org/tournament/{{ .ID }}" target="_blank" rel="noopener noreferrer">
+        http://lichess.org/tournament/{{ .ID }}
+      </a>
     </div>
 
-    {{.ID}}
-    {{.FullName}}
-    {{.Clock}}
-    {{.Minutes}}
-    {{.CreatedBy}}
-    {{.System}}
-    {{.SecondsToStart}}
-    {{.SecondsToFinish}}
-    {{.IsFinished}}
-    {{.IsRecentlyFinished}}
-    {{.PairingsClosed}}
-    {{.StartsAt}}
-    {{.NbPlayers}}
-    {{.Perf}}
-    {{.Schedule}}
-    {{.Variant}}
-    {{.Duels}}
-    {{.Standings}}
-    {{.Featured}}
-    {{.Podium}}
-    {{.Stats}}
+    <div class="content">
+      <p>
+        {{.ID}}
+        {{.FullName}}
+        {{.Clock}}
+        {{.Minutes}}
+        {{.CreatedBy}}
+        {{.System}}
+        {{.SecondsToStart}}
+        {{.SecondsToFinish}}
+        {{.IsFinished}}
+        {{.IsRecentlyFinished}}
+        {{.PairingsClosed}}
+        {{.StartsAt}}
+        {{.NbPlayers}}
+        {{.Perf}}
+        {{.Schedule}}
+        {{.Variant}}
+        {{.Duels}}
+        {{.Standings}}
+        {{.Featured}}
+        {{.Podium}}
+        {{.Stats}}
+      </p>
+    </div>
   </body>
 </html>

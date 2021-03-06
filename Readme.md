@@ -59,17 +59,8 @@ $ touch .env > LICHESS_TOKEN=YOUR_API_TOKEN
 # Download & Install the dependancies. Then Compile the program
 $ go build
 # Run the program locally
-$ go run main.go
+$ go run makeutility.go
 ```
-
-## Contributors
-
-Anyone is welcome to contribute!
-
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/chrisbarnes7404"><img src="https://avatars3.githubusercontent.com/u/25515082?s=460&u=d6d50a936b3e64d2e3d071574891a81faa33d0cb&v=4" width="75px;" alt="Chris Barnes"/><br /><sub><b>Chirs Barnes</b></sub></a><br /><a href="https://github.com/tempor1s/msconsole/commits?author=chrisbarnes7404" title="Code">💻</a></td>
-  </tr>
 
 ## Resources
 
@@ -89,3 +80,13 @@ Anyone is welcome to contribute!
 - [**Go By Example**: Panic](https://gobyexample.com/panic)
 - [**GopherAcademy**: Using Go Templates](https://blog.gopheracademy.com/advent-2017/using-go-templates/)
 - [**rapid7.com**: Building a Simple CLI Tool with Golang](https://blog.rapid7.com/2016/08/04/build-a-simple-cli-tool-with-golang/)
+
+## Contributors
+
+Anyone is welcome to contribute!
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/chrisbarnes7404"><img src="https://avatars3.githubusercontent.com/u/25515082?s=460&u=d6d50a936b3e64d2e3d071574891a81faa33d0cb&v=4" width="75px;" alt="Chris Barnes"/><br /><sub><b>Chirs Barnes</b></sub></a><br /><a href="https://github.com/tempor1s/msconsole/commits?author=chrisbarnes7404" title="Code">💻</a></td>
+  </tr>
+</table>

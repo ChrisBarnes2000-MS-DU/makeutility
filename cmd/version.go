@@ -14,6 +14,6 @@ var versionCommand = &cobra.Command{
 	Short: "Print the version for Makeutility",
 	Long:  "All software has versions. This is Makeutility's",
 	Run: func(cmd *cobra.Command, args []string) {
-		sgr.Println("[fg-green bold]Makeutility's version[reset] is currently [fg-yellow bold]Alpha 1.0[reset]")
+		sgr.Println("[fg-green bold]Makeutility's version[reset] is currently [fg-yellow bold]Alpha v1.1[reset]")
 	},
 }

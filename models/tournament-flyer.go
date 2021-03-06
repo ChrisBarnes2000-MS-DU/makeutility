@@ -5,11 +5,11 @@ import "time"
 // ChessTournamentFlyer ... Holds the Respons Data From Creating a new tournament on lichess.org
 // https://mholt.github.io/json-to-go/
 type ChessTournamentFlyer struct {
-	LeftImage image
-	RightImage image
-	ID       string `json:"id"`
-	FullName string `json:"fullName"`
-	Clock    struct {
+	LeftImage  Image
+	RightImage Image
+	ID         string `json:"id"`
+	FullName   string `json:"fullName"`
+	Clock      struct {
 		Increment int `json:"increment"`
 		Limit     int `json:"limit"`
 	} `json:"clock"`

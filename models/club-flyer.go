@@ -5,16 +5,16 @@ type ChessClubFlyer struct {
 	Year            int64
 	Name            string
 	Content         string
-	LeftImage       image
-	RightImage      image
-	Discord         link
-	Slack           link
-	LiChessTeam     link
-	ChessdotcomTeam link
-	Twitch          link
-	Instagram       link
-	Constitution    link
-	Roster          link
+	LeftImage       Image
+	RightImage      Image
+	Discord         Link
+	Slack           Link
+	LiChessTeam     Link
+	ChessdotcomTeam Link
+	Twitch          Link
+	Instagram       Link
+	Constitution    Link
+	Roster          Link
 }
 
 // FillDefaults ... Constructor Function: Setting default values: if no values present
@@ -50,7 +50,7 @@ func (ChessClubFlyer *ChessClubFlyer) FillDefaults() {
 	if ChessClubFlyer.Discord.URL == "" {ChessClubFlyer.Discord.URL = "https://discord.gg/MAR5NJYpfv"}
 
 	// Slack
-	if ChessClubFlyer.Slack.Display == "" {ChessClubFlyer.Slack.Display = "#chess-club"}
+	if ChessClubFlyer.Slack.Display == "" {ChessClubFlyer.Slack.Display = "chess-club"}
 	if ChessClubFlyer.Slack.URL == "" {ChessClubFlyer.Slack.URL = "https://makeschool.us20.list-manage.com/track/click?u=b6d3ee0bfdf3579e1533596e6&id=aa8c18e854&e=cff62999ba"}
 
 
